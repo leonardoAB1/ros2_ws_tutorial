@@ -1,0 +1,38 @@
+[4.270s] Invoking command in '/ros2_ws/my_package': PYTHONPATH=/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_package build --build-base /ros2_ws/build/my_package/build install --record /ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[6.432s] running egg_info
+[6.438s] creating ../build/my_package/my_package.egg-info
+[6.444s] writing ../build/my_package/my_package.egg-info/PKG-INFO
+[6.508s] writing dependency_links to ../build/my_package/my_package.egg-info/dependency_links.txt
+[6.519s] writing entry points to ../build/my_package/my_package.egg-info/entry_points.txt
+[6.527s] writing requirements to ../build/my_package/my_package.egg-info/requires.txt
+[6.532s] writing top-level names to ../build/my_package/my_package.egg-info/top_level.txt
+[6.544s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.590s] reading manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.630s] adding license file 'LICENSE'
+[6.661s] writing manifest file '../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.665s] running build
+[6.667s] running build_py
+[6.672s] creating /ros2_ws/build/my_package/build
+[6.675s] creating /ros2_ws/build/my_package/build/lib
+[6.678s] creating /ros2_ws/build/my_package/build/lib/my_package
+[6.691s] copying my_package/my_node.py -> /ros2_ws/build/my_package/build/lib/my_package
+[6.720s] copying my_package/__init__.py -> /ros2_ws/build/my_package/build/lib/my_package
+[6.737s] running install
+[6.738s] running install_lib
+[6.769s] creating /ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[6.792s] copying /ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[6.838s] copying /ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[6.884s] byte-compiling /ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[6.938s] byte-compiling /ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[6.987s] running install_data
+[6.997s] creating /ros2_ws/install/my_package/share/ament_index
+[7.001s] creating /ros2_ws/install/my_package/share/ament_index/resource_index
+[7.004s] creating /ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[7.019s] copying resource/my_package -> /ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[7.047s] copying package.xml -> /ros2_ws/install/my_package/share/my_package
+[7.065s] running install_egg_info
+[7.089s] Copying ../build/my_package/my_package.egg-info to /ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[7.404s] running install_scripts
+[7.545s] Installing my_node script to /ros2_ws/install/my_package/lib/my_package
+[7.562s] writing list of installed files to '/ros2_ws/build/my_package/install.log'
+[7.663s] Invoked command in '/ros2_ws/my_package' returned '0': PYTHONPATH=/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_package build --build-base /ros2_ws/build/my_package/build install --record /ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
