@@ -1,0 +1,19 @@
+{
+    "name": "ros2_ws",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        "--privileged",
+        "--network=host"
+    ],
+    "workspaceMount": "source=${localWorkspaceFolder},target=/ws,type=bind,consistency=cached",
+    "workspaceFolder": "/ws",
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.bash_history,target=/home/vscode/.bash_history,type=bind"
+    ],
+    "postCreateCommand": "source /opt/ros/humble/setup.bash && source /ws/install/setup.bash",
+    "remoteEnv": {
+        "ROS_DISTRO": "humble",
+        "ROS_VERSION": "2",
+        "ROS_PYTHON_VERSION": "3"
+    }
+}
